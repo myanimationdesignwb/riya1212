@@ -1,0 +1,359 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	width: 100%;
+	height: 100vh;
+	background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(background.jpg);
+
+	background-size: cover;
+	background-position: center;
+	font-family: sans-serif;
+
+}
+img{
+	width: 100px;
+	height: 90px;
+	float: right;
+}
+h1{
+ 
+	color: #E1EE2D;
+	font-size: 50px;
+	font-weight: 500;
+}
+h4{
+	color: #C9F007;
+    font-size: 30px;
+    font-weight: 300;
+	
+}
+h5{
+	color: #c8232d;
+	border-bottom: 3px dotted #5d5758;
+
+
+}
+
+.menubar{
+	background: #5BC1C4;
+	text-align: center;
+
+
+}
+.menubar ul{
+	display:inline-flex;
+	list-style: none;
+	color: #000;
+		overflow: hidden;
+}
+.menubar ul li{
+	width: 135px;
+	margin: 5px;
+	padding: 5px;
+		overflow: hidden;
+
+}
+.menubar ul li a{
+	text-decoration: none;
+	color: #000;
+		overflow: hidden;
+}
+.active,.menubar ul li:hover{
+	background: #C9F007;
+	border-radius: 3px;
+}
+.menubar .fa{
+	margin-right: 8px;
+}
+.sub-menu-1{
+	display: none;
+}
+.menubar ul li:hover .sub-menu-1{
+	display: block;
+	position: absolute;
+	background: #C9F007;
+	margin-top: 15px;
+	margin-left: -15px;
+}
+.menubar ul li:hover .sub-menu-1 ul{
+	display: inline;
+	margin:15px;
+}
+.menubar ul li:hover .sub-menu-1 ul li{
+	width: 150px;
+	padding: 10px;
+	border-bottom: 1px dotted #000;
+	background: transparent;
+	border-radius: 0;
+	text-align: left;
+}
+.menubar ul li: .sub-menu-1 ul li:last-child
+{
+	border-bottom: none;
+}
+.menubar ul li: .sub-menu-1 ul li a:hover{
+	color: #C9F007;
+}
+.fa-angle-right
+{
+	float: right;
+}
+.sub-menu-2{
+	display: none;
+}
+.hoverme:hover .sub-menu-2{
+	position: relative;
+	display: block;
+	margin-top: -40px;
+	margin-left: 140px;
+	background: #C9F007;
+}
+.hoverme:hover .sub-menu-2{
+	position: absolute;
+	display: block;
+	margin-top: -40px;
+	margin-left: 140px;
+	background: #C9F007;
+}
+.sub-menu-3{
+	display: none;
+}
+.menubar ul li:hover .sub-menu-3 ul{
+	display: block;
+	margin:15px;
+}
+.menubar ul li:hover .sub-menu-3{
+	display: block;
+	position: absolute;
+	background: #C9F007;
+	margin-top: 15px;
+	margin-left: -15px;
+}
+
+.hoverme:hover .sub-menu-3{
+	position: absolute;
+	display: block;
+	margin-top: -40px;
+	margin-left: 140px;
+	background: #C9F007;
+}
+.menubar ul li:hover .sub-menu-3 ul li{
+	width: 150px;
+	padding: 10px;
+	border-bottom: 1px dotted #000;
+	background: transparent;
+	border-radius: 0;
+	text-align: left;
+}
+.menubar ul li: .sub-menu-3 ul li:last-child
+{
+	border-bottom: none;
+}
+.menubar ul li: .sub-menu-3 ul li a:hover{
+	color: #C9F007;
+}
+.hoverme:hover .sub-menu-3{
+	position: absolute;
+	display: block;
+	margin-top: -40px;
+	margin-left: 140px;
+	background: #C9F007;
+}
+.sub-menu-4{
+	display: none;
+}
+.menubar ul li:hover .sub-menu-4 ul{
+	display: block;
+	margin:15px;
+}
+.menubar ul li:hover .sub-menu-4{
+	display: block;
+	position: absolute;
+	background: #C9F007;
+	margin-top: 15px;
+	margin-left: -15px;
+}
+
+.hoverme:hover .sub-menu-4{
+	position: absolute;
+	display: block;
+	margin-top: -40px;
+	margin-left: 140px;
+	background: #C9F007;
+}
+.menubar ul li:hover .sub-menu-4 ul li{
+	width: 150px;
+	padding: 10px;
+	border-bottom: 1px dotted #000;
+	background: transparent;
+	border-radius: 0;
+	text-align: left;
+}
+.menubar ul li: .sub-menu-4 ul li:last-child
+{
+	border-bottom: none;
+}
+.menubar ul li: .sub-menu-4 ul li a:hover{
+	color: #C9F007;
+}
+.hoverme:hover .sub-menu-4{
+	position: absolute;
+	display: block;
+	margin-top: -40px;
+	margin-left: 140px;
+	background: #C9F007;
+}
+.sub-menu-5{
+	display: none;
+}
+.menubar ul li:hover .sub-menu-5 ul{
+	display: block;
+	margin:15px;
+}
+.menubar ul li:hover .sub-menu-5{
+	display: block;
+	position: absolute;
+	background: #C9F007;
+	margin-top: 15px;
+	margin-left: -15px;
+}
+
+.hoverme:hover .sub-menu-5{
+	position: absolute;
+	display: block;
+	margin-top: -40px;
+	margin-left: 140px;
+	background: #C9F007;
+}
+.menubar ul li:hover .sub-menu-5 ul li{
+	width: 150px;
+	padding: 10px;
+	border-bottom: 1px dotted #000;
+	background: transparent;
+	border-radius: 0;
+	text-align: left;
+}
+.menubar ul li: .sub-menu-5 ul li:last-child
+{
+	border-bottom: none;
+}
+.menubar ul li: .sub-menu-5 ul li a:hover{
+	color: #C9F007;
+}
+.hoverme:hover .sub-menu-5{
+	position: absolute;
+	display: block;
+	margin-top: -40px;
+	margin-left: 140px;
+	background: #C9F007;
+}
+.sub-menu-6{
+	display: none;
+}
+.menubar ul li:hover .sub-menu-6 ul{
+	display: block;
+	margin:15px;
+}
+.menubar ul li:hover .sub-menu-6{
+	display: block;
+	position: absolute;
+	background: #C9F007;
+	margin-top: 15px;
+	margin-left: -15px;
+}
+
+.hoverme:hover .sub-menu-6{
+	position: absolute;
+	display: block;
+	margin-top: -40px;
+	margin-left: 140px;
+	background: #C9F007;
+}
+.menubar ul li:hover .sub-menu-6 ul li{
+	width: 150px;
+	padding: 10px;
+	border-bottom: 1px dotted #000;
+	background: transparent;
+	border-radius: 0;
+	text-align: left;
+}
+.menubar ul li: .sub-menu-6 ul li:last-child
+{
+	border-bottom: none;
+}
+.menubar ul li: .sub-menu-6 ul li a:hover{
+	color: #C9F007;
+}
+.hoverme:hover .sub-menu-6{
+	position: absolute;
+	display: block;
+	margin-top: -40px;
+	margin-left: 140px;
+	background: #C9F007;
+
+}
+
+
+/*media queries*/
+
+@media (max-width: 991px){
+	html{
+	font-size: 55%;
+ }
+}
+@media (max-width: 768px){
+	.menubar{
+		display: block;
+	}
+               .menubar .sub-menu-1{
+		position: fixed;
+		top: 8rem; left: -120%;
+		height: 100%;
+		width: 100%;
+		background: #eee;
+		border-top: 1px solid rgba(0,0,0,.1);
+	}
+                .menubar .sub-menu-1 ul{
+		flex-flow: column;
+		padding: 20px;
+	}
+                 .menubar .sub-menu-1 ul li{
+		text-align: center;
+		width: 100%;
+		margin:20px 0;
+	}
+.menubar .sub-menu-1 ul li a{
+		display: block;
+		padding: 1rem;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
